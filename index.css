@@ -1,7 +1,9 @@
 body {
     background-repeat: no-repeat;
-    background-image: url('background.gif');
+    background-image: url('assets/gifs/background.gif');
     background-size: cover;
+    font-family: "PublicPixel";
+    color: white;
 }
 
 .footer {
@@ -15,4 +17,9 @@ body {
     width: 100%;
     align-items: center;
     justify-content: center;
+}
+
+@font-face {
+    font-family: "PublicPixel";
+    src: url("./assets/fonts/PublicPixel.ttf");
 }
