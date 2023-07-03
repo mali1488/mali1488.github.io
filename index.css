@@ -1,0 +1,18 @@
+body {
+    background-repeat: no-repeat;
+    background-image: url('background.gif');
+    background-size: cover;
+}
+
+.footer {
+    position: absolute;
+    bottom: 1px;
+}
+
+.underConstruction {
+    padding-top: 20px;
+    display: flex; 
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
